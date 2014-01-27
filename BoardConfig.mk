@@ -64,7 +64,7 @@ TARGET_RECOVERY_FSTAB := device/asus/ME173X/recovery/etc/recovery.fstab
 
 # Carliv Recovery info
 # General MTK Partition info
-CWM_EMMC_BOOT_DEVICE_NAME := /dev/boot
+CWM_EMMC_BOOT_DEVICE_NAME := /dev/bootimg
 CWM_EMMC_BOOT_DEVICE_SIZE := 0x00600000
 CWM_EMMC_RECOVERY_DEVICE_NAME := /dev/recovery
 CWM_EMMC_RECOVERY_DEVICE_SIZE := 0x00600000
