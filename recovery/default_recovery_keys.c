@@ -41,13 +41,13 @@ int device_handle_key(int key_code, int visible) {
                 }
                 break;
             case KEY_LEFTBRACE:
-            case KEY_ENTER:
             case BTN_MOUSE:
             case KEY_CAMERA:
             case KEY_F21:
             case KEY_SEND:
                 return SELECT_ITEM;
             
+            case KEY_ENTER:
             case KEY_END:
             case KEY_BACKSPACE:
             case KEY_SEARCH:
