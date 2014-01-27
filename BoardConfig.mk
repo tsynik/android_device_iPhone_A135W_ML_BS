@@ -64,6 +64,8 @@ TARGET_RECOVERY_FSTAB := device/iPhone/A135W_ML_BS/recovery/etc/recovery.fstab
 
 # Carliv Recovery info
 
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/iPhone/A135W_ML_BS/recovery/default_recovery_keys.c
+
 # General MTK Partition info
 
 #CWM_EMMC_BOOT_DEVICE_NAME := /dev/bootimg
