@@ -1,5 +1,5 @@
-i5s NAND UBIFS (A135W_ML_BS)
+ALPS i5s + NAND + UbiFS (A135W_ML_BS)
 ==========================
 
-Device files for the i5s (A135W_ML_BS)
-
+Device tree files for the ALPS i5s
+Model: A135W_ML_BS
