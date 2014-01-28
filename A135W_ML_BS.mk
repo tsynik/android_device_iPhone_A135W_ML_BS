@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product-if-exists, device/iPhone/ios72_wet_jb3/device_A135W_ML_BS.mk)
+$(call inherit-product-if-exists, device/iPhone/A135W_ML_BS/device_A135W_ML_BS.mk)
 
 
 PRODUCT_NAME := iPhone
