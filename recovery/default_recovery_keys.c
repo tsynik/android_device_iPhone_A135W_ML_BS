@@ -29,7 +29,6 @@ int device_handle_key(int key_code, int visible) {
             case KEY_LEFTSHIFT:
             case KEY_UP:
             case KEY_VOLUMEUP:
-            case KEY_HOME:
                 return HIGHLIGHT_UP;
 
             case KEY_POWER:
@@ -47,6 +46,7 @@ int device_handle_key(int key_code, int visible) {
             case KEY_SEND:
                 return SELECT_ITEM;
             
+            case KEY_HOME:
             case KEY_ENTER:
             case KEY_END:
             case KEY_BACKSPACE:
