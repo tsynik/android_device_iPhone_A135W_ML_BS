@@ -1,0 +1,11 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=0
+ro.debuggable=1
+persist.mtk.aee.aed=on
+persist.sys.usb.config=mass_storage,adb
+persist.service.adb.enable=1
+persist.service.acm.enable=0
+ro.allow.mock.location=0
+ro.mount.fs=UBIFS
