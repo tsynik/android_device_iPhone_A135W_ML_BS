@@ -17,7 +17,7 @@
 $(call inherit-product-if-exists, device/iPhone/A135W_ML_BS/device_A135W_ML_BS.mk)
 
 
-PRODUCT_NAME := iPhone
+PRODUCT_NAME := A135W_ML_BS
 PRODUCT_BRAND := iPhone
 PRODUCT_DEVICE := A135W_ML_BS
 PRODUCT_MODEL := MF353ZP/A
