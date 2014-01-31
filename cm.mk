@@ -19,7 +19,7 @@ $(call inherit-product-if-exists, device/iPhone/A135W_ML_BS/device_A135W_ML_BS.m
 # Inherit some common CM stuff.
 #$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
-PRODUCT_NAME := cm_A135W_ML_BS
+PRODUCT_NAME := cm_iPhone_A135W_ML_BS
 PRODUCT_BRAND := iPhone
 PRODUCT_DEVICE := A135W_ML_BS
 PRODUCT_MODEL := MF353ZP/A
@@ -31,4 +31,3 @@ TARGET_SCREEN_WIDTH := 480
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := iPhone i5s MF353ZP/A
-
