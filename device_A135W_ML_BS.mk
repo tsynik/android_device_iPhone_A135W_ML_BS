@@ -1,4 +1,3 @@
-
 LOCAL_PATH := device/iPhone/A135W_ML_BS
 
 
