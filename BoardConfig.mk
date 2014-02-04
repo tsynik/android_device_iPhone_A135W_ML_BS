@@ -49,8 +49,9 @@ ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0 \
 ro.allow.mock.location=0 \
 persist.mtk.aee.aed=on \
 ro.debuggable=1 \
+persist.service.adb.enable=1 \
 persist.service.acm.enable=0 \
-persist.sys.usb.config=mass_storage \
+persist.sys.usb.config=mass_storage,adb \
 ro.mount.fs=UBIFS
 
 
