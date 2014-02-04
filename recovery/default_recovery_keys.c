@@ -1,5 +1,5 @@
 #include <linux/input.h>
-
+#define PROGRAM_NAME "default_recovery_keys"
 #include "recovery_ui.h"
 #include "common.h"
 #include "extendedcommands.h"
