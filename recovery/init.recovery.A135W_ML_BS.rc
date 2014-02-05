@@ -15,7 +15,6 @@ on init
     mkdir /misc
     mkdir /sdcard
     mkdir /sd-ext
-    mkdir /datadata
     mkdir /system
     mkdir /data
     mkdir /cache
