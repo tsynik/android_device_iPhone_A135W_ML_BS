@@ -50,6 +50,7 @@ service adbd /sbin/adbd recovery
 # Recovery will start adb once it has checked the keys
 
 on property:ro.debuggable=1
+    start adbd
     setprop service.adb.root 1
     
 # Restart adbd so it can run as root
